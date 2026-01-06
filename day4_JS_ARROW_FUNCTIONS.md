@@ -17,7 +17,7 @@ hello(); // Output: hello
 
 ### Example 2: Arrow Function with Parameters
 ```js
-const hello = (name, age) => {
+const hello = (name, age) => { It takes in two parameters nameand age
     console.log(`hello ${name}`);
     console.log(`You are ${age}yrs old`);
     console.log(`You shouldn't waste your time`);
