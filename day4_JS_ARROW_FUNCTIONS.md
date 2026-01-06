@@ -61,7 +61,7 @@ The `map()` method creates a new array by applying a function to each element.
 ### Example: Squares of Numbers
 ```js
 const numbers = [1, 2, 3, 4, 5, 6];
-const squares = numbers.map((element) => Math.pow(element, 2));
+const squares = numbers.map((element) => Math.pow(element, 2)); // element raised to the power of 2
 
 console.log(squares); 
 // Output: [1, 4, 9, 16, 25, 36]
@@ -70,7 +70,7 @@ console.log(squares);
 ### Example: Cubes of Numbers
 ```js
 const numbers = [1, 2, 3, 4, 5, 6];
-const cubes = numbers.map((element) => Math.pow(element, 3));
+const cubes = numbers.map((element) => Math.pow(element, 3)); // element raised to the power of 3
 
 console.log(cubes); 
 // Output: [1, 8, 27, 64, 125, 216]
@@ -84,14 +84,14 @@ The `filter()` method creates a new array with elements that pass a test.
 
 ### Example: Even Numbers
 ```js
-const evenNums = numbers.filter((element) => element % 2 === 0);
+const evenNums = numbers.filter((element) => element % 2 === 0); // fiters the numbers that the modulus of 2 equal to 2, which are even numbers 
 console.log(evenNums); 
 // Output: [2, 4, 6]
 ```
 
 ### Example: Odd Numbers
 ```js
-const oddNums = numbers.filter((element) => element % 2 !== 0);
+const oddNums = numbers.filter((element) => element % 2 !== 0); // filters the numers that the modulus of 2 is not equal to 2, which are odd numbers 
 console.log(oddNums); 
 // Output: [1, 3, 5]
 ```
